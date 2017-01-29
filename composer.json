@@ -1,0 +1,23 @@
+{
+    "name": "patinthehat/new-laravel-project",
+    "description": "Easily generate a new Laravel project of any version from the command line.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Organ",
+            "email": "trick.developer@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Permafrost\\NewLaravelProject\\Console\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.2",
+        "symfony/process": "^3.2"
+    },
+    "bin": [
+        "new-laravel-project"
+    ]
+}
