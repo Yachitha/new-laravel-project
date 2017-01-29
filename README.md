@@ -12,13 +12,16 @@ Easily create a new [Laravel](https://www.laravel.com) project of any version.  
 #### Sample Usage
 
 Create a project with the latest Laravel version:
-	`new-laravel-project myproject`
+
+	`new-laravel-project create myproject`
 
 Create a Laravel 5.3 project:
-	`new-laravel-project myproject 5.3`
+
+	`new-laravel-project create myproject 5.3`
 	
 Create a Laravel 5.4 project with optional packages:
-	`new-laravel-project myproject 5.4 --packages=laracasts/flash,guzzlehttp/guzzle`
+
+	`new-laravel-project create myproject 5.4 --packages=laracasts/flash,guzzlehttp/guzzle`
 
 ---
 #### References
